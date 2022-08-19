@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "aws-athena-struct-to-json"
+version = "0.1.0"
+description = "Transform a text blob of a struct to json"
+authors = ["Michael Park <mike@mhpark.me>"]
+license = "GNU General Public License v3.0"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
